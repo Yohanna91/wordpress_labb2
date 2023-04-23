@@ -1,0 +1,22 @@
+2023-04-23T17:52:11+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress/wp-content/plugins/random-citat/random-citat-widget.php på rad 63
+
+2023-04-23T17:52:17+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress/wp-content/plugins/random-citat/random-citat-widget.php på rad 63
+
+2023-04-23T17:52:18+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "function" or "const" i /Applications/MAMP/htdocs/wordpress/wp-content/plugins/random-citat/random-citat-widget.php på rad 63
+
+2023-04-23T17:53:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_random_quote_widget" not found or invalid function name in /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/widgets.php(1854): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(308): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/wordpress/wp-settings.php(623): do_action('init')
+#7 /Applications/MAMP/htdocs/wordpress/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/wordpress/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/wordpress/wp-admin/admin.php(34): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/wordpress/wp-admin/plugins.php(10): require_once('/Applications/M...')
+#11 {main}
+  thrown i /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php på rad 308
+
